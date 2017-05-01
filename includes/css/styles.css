@@ -1,0 +1,119 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Charu Bhatt
+Updated: May 2017
+*/
+
+/* --------------------------------------
+   layout
+   -------------------------------------- */
+
+   .container{
+		margin: 0 100px;
+	}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   body{
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizelegibility;	
+	}
+
+	#name{
+		padding-top: 30px;
+	}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+	.navbar{
+		background-color: #00897b;
+	}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+   img{
+		width: 200px;
+		height: 200px;
+	}
+	
+   #contact_link{
+		padding-left: 0px;
+		margin-top: 60px;
+	}
+
+	#profile_link{
+		margin-left: 200px;
+		margin-right: 0px;
+	}
+
+	#social_icon{
+		font-size: 25px;
+		fill: rgba(54,71,78,.7);
+		color: white;
+		margin-right: 10px;
+		border-radius: 8px;
+	}
+
+/* --------------------------------------
+   tabs
+   -------------------------------------- */
+
+   .tab_item{
+		color: black;
+	}
+
+	#tabContent{
+		margin-top: 250px;
+		margin-left: 200px;
+		margin-right: 200px;
+		align-content: center;
+	}
+
+/* --------------------------------------
+   Cards
+   -------------------------------------- */
+
+	.card{
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		box-shadow: 0 2px 4px 0 rgba(187,187,187,0.50);
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.card-header{
+		padding-left: 20px;
+		background-color: #009688;
+	}
+
+	.card-content{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.card-content-skills{
+		padding-left: 0; 
+		padding-top: 10px;
+	}
+
+	.skillsList li{
+		list-style-type: square;
+	}
+
+	
+	
+
+	

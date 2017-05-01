@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My online profile page</title>
+
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="includes/css/styles.css" rel="stylesheet">
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+
+	<body>
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-sm-3">
+							<a href="#" class="navbar-brand" ><img src="images/profile-picture.png" alt="profile photo" class="img-circle" id="profile_pic"></a>
+						</div>
+
+						<div class="col-sm-5">
+							<h3 id="name">Charu Bhatt</h3>
+							<h4>Product Engineer</h4>
+							<h5>Wipro Digital</h5>
+
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true" id="social_icon"></i></a>
+
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true" id="social_icon"></i></a>
+
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true" id="social_icon"></i></a>
+
+							<a href="#"><i class="fa fa-flickr" aria-hidden="true" id="social_icon"></i></a>
+						</div>
+					
+						<div class="col-lg-2" id="contact_link">
+							<a href="https://github.com/charubhatt18" target="_blank" class="btn btn-warning btn-medium" type="button">Go to my Github profile</a>
+						</div>
+
+						<div class="col-lg-2" id="contact_link">
+							<a href="https://www.linkedin.com/in/charu-bhatt-28600938" target="_blank" class="btn btn-warning btn-medium" type="button">Go to my LinkedIn profile</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="tabContent">
+
+			<div class="col-sm-12">
+				<div class="tabbable">
+
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab" class="tab_item">Profile</a></li>
+						<li><a href="#tab2" data-toggle="tab" class="tab_item">Skills</a></li>
+						<li><a href="#tab3" data-toggle="tab" class="tab_item">Experience</a></li>
+						<li><a href="#tab4" data-toggle="tab" class="tab_item">Contact</a></li>
+					</ul>
+
+					<div class="tab-content">
+											
+						<div class="tab-pane active" id="tab1">
+
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="card">
+  										<div class="card-header">
+    										<h4>About me</h4>
+    									</div>
+    									<div class="card-content">
+    										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    									</div>
+  									</div>
+  								</div>
+
+  								<div class="col-lg-6">
+  									<div class="card">
+  										<div class="card-header">
+    										<h4>Personal Info</h4>
+  										</div>
+  										<div class="card-content">
+  											<table cellspacing="20px" cellpadding="6.50px">
+  												<tr>
+  													<td>First Name</td><td>:</td><td>Charu</td>
+  												</tr>
+  												<tr>
+  													<td>Last Name</td><td>:</td><td>Bhatt</td>
+  												</tr>
+  												<tr>
+  													<td>DOB</td><td>:</td><td>18/10/1994</td>
+  												</tr>
+  												<tr>
+  													<td>Blood Group</td><td>:</td><td>A+</td>
+  												</tr>
+  											</table>
+  											
+  										</div>
+  									</div>
+  								</div>
+  							</div>
+
+  							<div class="row">
+								<div class="col-lg-6">
+									<div class="card">
+  										<div class="card-header">
+    										<h4>Educational Details</h4>
+    									</div>
+    									<div class="card-content">
+    										<h4>APJ Abdul Kalam Technical university</h4>
+    										<p>Bachelors in Computer Science and Engineering - June 2016</p>
+    										<br>
+    										<h4>Board of Technical Education Uttar Pradesh </h4>
+    										<p>Diploma in Computer Science and Engineering - June 2012</p>
+    									</div>
+  									</div>
+  								</div>
+
+  								<div class="col-lg-6">
+  									
+  								</div>
+  							</div>
+
+						</div>
+
+						<div class="tab-pane" id="tab2">
+
+							<div class="col-lg-6">
+  								<div class="card">
+  									<div class="card-header">
+    									<h4>My Skills</h4>
+  									</div>
+  									<div class="card-content-skills">
+  										<ul class="skillsList">
+  											<li>HTML5</li>
+  											<li>CSS3</li>
+  											<li>Bootstrap</li>
+  											<li>Java</li>
+  											<li>Oracle SQL</li>
+  										</ul>
+  									</div>
+  								</div>
+  							</div>
+
+						</div>
+
+						<div class="tab-pane" id="tab3">
+
+							<div class="col-lg-6">
+  								<div class="card">
+  									<div class="card-header">
+    									<h4>My Experience</h4>
+  									</div>
+  									<div class="card-content">
+  										<table cellspacing="20px" cellpadding="6.50px">
+  											<tr>
+  												<td>2016-18</td><td>:</td><td>Wipro Digital</td>
+  											</tr>
+  											<tr>
+  												<td>2018-23</td><td>:</td><td>Accenture Technologies</td>
+  											</tr>
+  											<tr>
+  												<td>2023-Present</td><td>:</td><td>Microsoft Corporation</td>
+  											</tr>
+  										</table>
+  									</div>
+  								</div>
+  							</div>
+							
+						</div>
+
+						<div class="tab-pane" id="tab4">
+
+							<div class="col-lg-6">
+  								<div class="card">
+  										<div class="card-header">
+    										<h4>Contact Info</h4>
+  										</div>
+  										<div class="card-content">
+  											<table cellspacing="20px" cellpadding="5px">
+  												<tr>
+  													<td>Email</td><td>:</td><td>charu.bhatt@wipro.com</td>
+  												</tr>
+  												<tr>
+  													<td>Mobile no.</td><td>:</td><td>+91-7042759279</td>
+  												</tr>
+  												<tr>
+  													<td>Address</td><td>:</td><td>Sri sathya pg, Electronic city-2, Bangalore, 560100</td>
+  												</tr>
+  												
+  											</table>
+  											
+  										</div>
+  									</div>
+  							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
