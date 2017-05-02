@@ -15,6 +15,23 @@ Updated: May 2017
 		margin: 0 100px;
 	}
 
+	.nav-tabs li a{
+		margin-right: 0px;
+	}
+	
+	#primaryContainer{
+
+		margin-top: 250px;
+	}
+
+	#info{
+		padding-left: 0;
+	}
+
+	#cardExperience{
+		align
+	}
+	
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -36,6 +53,8 @@ Updated: May 2017
 	.card_heading{
 		color: white;
 		font-weight: bold;
+		text-align: center;
+		font-size: 18px;
 	}
 
 	body{
@@ -43,6 +62,10 @@ Updated: May 2017
 		font-size: 15px;
 	}
 
+	.profileLinks{
+		font-weight: bold;
+	}
+	
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -55,9 +78,10 @@ Updated: May 2017
    Global Styles
    -------------------------------------- */
 
-   img{
+   #profile_pic{
 		width: 200px;
 		height: 200px;
+		margin-right: 0px;
 	}
 	
    #contact_link{
@@ -75,28 +99,30 @@ Updated: May 2017
 		margin-right: 0px;
 	}
 
-	#social_icon{
+	.social_icon{
 		font-size: 25px;
 		fill: rgba(54,71,78,.7);
-		color: white;
+		color: grey;
 		margin-right: 15px;
 		border-radius: 8px;
 		margin-top: 10px;
 	}
-
-/* --------------------------------------
-   tabs
-   -------------------------------------- */
-
-   .tab_item{
-		color: black;
+	
+	.skillsImg{
+		margin-right: 20px;
 	}
 
-	#tabContent{
-		margin-top: 250px;
-		margin-left: 200px;
-		margin-right: 200px;
-		align-content: center;
+	.skillsImg img{
+		width: 120px;
+		height:120px;
+	}
+
+	table{
+		border-spacing: 20px;
+  	}
+
+	td{
+		padding: 6px;
 	}
 
 /* --------------------------------------
@@ -109,7 +135,7 @@ Updated: May 2017
 		flex-direction: column;
 		box-shadow: 0 2px 4px 0 rgba(187,187,187,0.50);
 		width: 100%;
-		margin-top: 40px;
+		margin-top: 30px;
 		margin-bottom: 20px;
 	}
 
@@ -122,12 +148,13 @@ Updated: May 2017
 		padding-left: 20px;
 		padding-right: 20px;
 		padding-top: 10px;
-		padding-bottom: 5px;
+		padding-bottom: 10px;
 	}
 
 	.card-content-skills{
-		padding-left: 0; 
-		padding-top: 10px;
+		padding-left: 60px; 
+		padding-top: 20px;
+		padding-bottom: 30px;
 	}
 
 	.skillsList li{
@@ -149,6 +176,7 @@ Updated: May 2017
 
 	#info{
 		margin-left: 40px;
+
 	}
 
 	#contact_link{
@@ -200,6 +228,26 @@ Updated: May 2017
 
 	
 }
+
+@media only screen
+  and (min-device-width : 1118px)
+  and (max-device-width : 1220px) {
+  /* Styles */
+  #profileLinks{
+		font-size: 12px;
+		margin-right: 5px;
+	}
+  }
+
+  @media only screen
+  and (min-device-width : 988px)
+  and (max-device-width : 1115px) {
+  /* Styles */
+  #profileLinks{
+		font-size: 10px;
+		margin-right: 5px;
+	}
+  }
 
 	
 
