@@ -28,6 +28,21 @@ Updated: May 2017
 		padding-top: 30px;
 	}
 
+	.title{
+		color: white;
+		margin-left: 0;
+	}
+
+	.card_heading{
+		color: white;
+		font-weight: bold;
+	}
+
+	body{
+		font-family: lato sans-serif;
+		font-size: 15px;
+	}
+
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -50,6 +65,11 @@ Updated: May 2017
 		margin-top: 60px;
 	}
 
+	#contact_link1{
+		padding-left: 0px;
+		margin-top: 60px;
+	}
+
 	#profile_link{
 		margin-left: 200px;
 		margin-right: 0px;
@@ -59,8 +79,9 @@ Updated: May 2017
 		font-size: 25px;
 		fill: rgba(54,71,78,.7);
 		color: white;
-		margin-right: 10px;
+		margin-right: 15px;
 		border-radius: 8px;
+		margin-top: 10px;
 	}
 
 /* --------------------------------------
@@ -125,6 +146,20 @@ Updated: May 2017
 		width: 50px;
 		height: 50px;
 	}
+
+	#info{
+		margin-left: 40px;
+	}
+
+	#contact_link{
+		width: 100%;
+	}
+
+	#contact_link1{
+		width: 100%;
+		margin-top: 30px;
+	}
+
 	
 }
 
@@ -135,14 +170,28 @@ Updated: May 2017
 		width: 100px;
 		height: 100px;
 		position: absolute;
+		top: 20px;
+		left: 90px;
 	}
 
 	.navbar{
 		background-color: #00897b;
 		position: relative;
-		top: 20px;
-		left: 90px;
+		
 	}
+
+	#info{
+		margin-left: 40px;
+	}
+
+	#contact_link{
+		width: 100%;
+	}
+
+	#contact_link1{
+		width: 100%;
+	}
+
 	
 }
 

@@ -3,10 +3,16 @@
 	<head>
 		<title>My online profile page</title>
 
+		<meta name="description" content="My Online Profile Page">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Lobster|Pacifico|arvo|roboto|merriweather|oswald" >
 		<link href="includes/css/styles.css" rel="stylesheet">
+
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 
 	</head>
@@ -18,14 +24,14 @@
 				<div class="container">
 
 					<div class="row">
-						<div class="col-sm-3">
+						<div class="col-sm-4 col-lg-3">
 							<a href="#" class="navbar-brand" ><img src="images/profile-picture.png" alt="profile photo" class="img-circle" id="profile_pic"></a>
 						</div>
 
-						<div class="col-sm-5">
-							<h3 id="name">Charu Bhatt</h3>
-							<h4>Product Engineer</h4>
-							<h5>Wipro Digital</h5>
+						<div class="col-sm-4 col-lg-5" id="info">
+							<h3 class="title" id="name">Charu Bhatt</h3>
+							<h4 class="title">Product Engineer</h4>
+							<h5 class="title">Wipro Digital</h5>
 
 							<a href="#"><i class="fa fa-facebook" aria-hidden="true" id="social_icon"></i></a>
 
@@ -36,11 +42,11 @@
 							<a href="#"><i class="fa fa-flickr" aria-hidden="true" id="social_icon"></i></a>
 						</div>
 					
-						<div class="col-sm-2" id="contact_link">
+						<div class="col-sm-4 col-md-2 col-lg-2" id="contact_link">
 							<a href="https://github.com/charubhatt18" target="_blank" class="btn btn-warning btn-medium" type="button">Go to my Github profile</a>
 						</div>
 
-						<div class="col-sm-2" id="contact_link">
+						<div class="col-sm-4 col-md-2 col-lg-2" id="contact_link1">
 							<a href="https://www.linkedin.com/in/charu-bhatt-28600938" target="_blank" class="btn btn-warning btn-medium" type="button">Go to my LinkedIn profile</a>
 						</div>
 
@@ -69,7 +75,7 @@
 								<div class="col-sm-6">
 									<div class="card">
   										<div class="card-header">
-    										<h4>About Me</h4>
+    										<h4 class="card_heading">About Me</h4>
     									</div>
     									<div class="card-content">
     										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -80,7 +86,7 @@
   								<div class="col-sm-6">
   									<div class="card">
   										<div class="card-header">
-    										<h4>Personal Info</h4>
+    										<h4 class="card_heading">Personal Info</h4>
   										</div>
   										<div class="card-content">
   											<table cellspacing="20px" cellpadding="6.50px">
@@ -107,7 +113,7 @@
 								<div class="col-sm-6">
 									<div class="card">
   										<div class="card-header">
-    										<h4>Educational Details</h4>
+    										<h4 class="card_heading">Educational Details</h4>
     									</div>
     									<div class="card-content">
     										<h4>APJ Abdul Kalam Technical university</h4>
@@ -119,9 +125,7 @@
   									</div>
   								</div>
 
-  								<div class="col-sm-6">
-  									
-  								</div>
+  								
   							</div>
 
 						</div>
@@ -131,7 +135,7 @@
 							<div class="col-sm-6">
   								<div class="card">
   									<div class="card-header">
-    									<h4>My Skills</h4>
+    									<h4 class="card_heading">My Skills</h4>
   									</div>
   									<div class="card-content-skills">
   										<ul class="skillsList">
@@ -152,7 +156,7 @@
 							<div class="col-sm-6">
   								<div class="card">
   									<div class="card-header">
-    									<h4>My Experience</h4>
+    									<h4 class="card_heading">My Experience</h4>
   									</div>
   									<div class="card-content">
   										<table cellspacing="20px" cellpadding="6.50px">
@@ -177,15 +181,15 @@
 							<div class="col-sm-6">
   								<div class="card">
   										<div class="card-header">
-    										<h4>Contact Info</h4>
+    										<h4 class="card_heading">Contact Info</h4>
   										</div>
   										<div class="card-content">
   											<table cellspacing="20px" cellpadding="5px">
   												<tr>
-  													<td>Email</td><td>:</td><td>charu.bhatt@wipro.com</td>
+  													<td>Email</td><td>:</td><td><span class="glyphicon glyphicon-envelope"></span> charu.bhatt@wipro.com</td>
   												</tr>
   												<tr>
-  													<td>Mobile no.</td><td>:</td><td>+91-7042759279</td>
+  													<td>Mobile no.</td><td>:</td><td><span class="glyphicon glyphicon-phone"></span> +91-7042759279</td>
   												</tr>
   												<tr>
   													<td>Address</td><td>:</td><td>Sri sathya pg, Electronic city-2, Bangalore, 560100</td>
@@ -204,6 +208,8 @@
 		</div>
 
 		<hr>
+
+
 
 		<script src="http://code.jquery.com/jquery.js"></script>
 
