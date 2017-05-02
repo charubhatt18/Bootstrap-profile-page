@@ -14,22 +14,13 @@ Updated: May 2017
    .container{
 		margin: 0 100px;
 	}
-
-	.nav-tabs li a{
-		margin-right: 0px;
-	}
 	
 	#primaryContainer{
-
 		margin-top: 250px;
 	}
 
 	#info{
 		padding-left: 0;
-	}
-
-	#cardExperience{
-		align
 	}
 	
 /* --------------------------------------
@@ -157,18 +148,14 @@ Updated: May 2017
 		padding-bottom: 30px;
 	}
 
-	.skillsList li{
-		list-style-type: square;
-	}
-
 	
-	/* --------------------------------------
+/* --------------------------------------
    Media Queries
-   -------------------------------------- */
+  -------------------------------------- */
 
 /* Portrait & landscape phone */
-@media (max-width: 480px) {
-	
+@media (max-width: 480px){
+
 	img{
 		width: 50px;
 		height: 50px;
@@ -176,19 +163,21 @@ Updated: May 2017
 
 	#info{
 		margin-left: 40px;
-
 	}
 
 	#contact_link{
 		width: 100%;
-	}
+	}	
 
 	#contact_link1{
 		width: 100%;
 		margin-top: 30px;
 	}
 
-	
+	.skillsImg img{
+		width: 40px;
+		height:40px;
+	}
 }
 
 /* Landscape phone to portrait tablet */
@@ -205,7 +194,6 @@ Updated: May 2017
 	.navbar{
 		background-color: #00897b;
 		position: relative;
-		
 	}
 
 	#info{
@@ -219,8 +207,6 @@ Updated: May 2017
 	#contact_link1{
 		width: 100%;
 	}
-
-	
 }
 
 /* Large desktop */
@@ -232,14 +218,15 @@ Updated: May 2017
 @media only screen
   and (min-device-width : 1118px)
   and (max-device-width : 1220px) {
+
   /* Styles */
   #profileLinks{
 		font-size: 12px;
 		margin-right: 5px;
 	}
-  }
+ }
 
-  @media only screen
+ @media only screen
   and (min-device-width : 988px)
   and (max-device-width : 1115px) {
   /* Styles */
@@ -247,7 +234,7 @@ Updated: May 2017
 		font-size: 10px;
 		margin-right: 5px;
 	}
-  }
+ }
 
 	
 
